@@ -3,26 +3,38 @@ from ting_file_management.queue import Queue
 
 
 def exists_word(word: str, instance: Queue):
-    conteudo = instance
-    arquivo_nome = ''
+    return list()
+    # conteudo = instance
+    # arquivos = ''
+    # texto_palvra = ''
+    # linha_de_palavras = []
+    # quantidade_palavra = []
 
-    for arquivo in conteudo.queue:
-        print('CONTEUDO: ', arquivo['nome_do_arquivo'])
-        arquivo_nome = arquivo['nome_do_arquivo']
+    # if len(conteudo.queue) == 0:
 
-    print('NOME_ARQUIVO: ', arquivo_nome)
-    linha_de_palavras = []
+    # for arquivo in conteudo.queue:
+    #     arquivos = arquivo['nome_do_arquivo']
+    #     texto_palvra = arquivo['linhas_do_arquivo']
 
-    print('LINHAS: ', linha_de_palavras)
+    # print('NOME_ARQUIVO: ', arquivos)
+    # print('TEXTO_FORA: ', texto_palvra)
 
-    formato_arquivo = {
-        "palavra": '',
-        "arquivo": arquivo_nome,
-        "ocorrencias": [
-            linha_de_palavras
-        ]
-    }
-    print('FORMATO: ', formato_arquivo)
+    # for word in texto_palvra:
+    #     texto_palvra.split()
+    #     quantidade_palavra.append(texto_palvra.count(word))
+
+    # print('QUANTIDADE: ', quantidade_palavra)
+    # print('SEPARA: ', texto_palvra)
+    # print('LINHAS: ', linha_de_palavras)
+
+    # print('TEXTO_FORA2 : ', texto_palvra)
+
+    # formato_arquivo = {
+    #     "palavra": word,
+    #     "arquivo": arquivos,
+    #     "ocorrencias": linha_de_palavras
+    # }
+    # return ('FORMATO: ', formato_arquivo)
 
 
 def search_by_word(word, instance):
